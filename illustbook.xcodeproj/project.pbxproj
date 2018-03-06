@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251C4DF220426BB100BDA2B4 /* manubar.png in Resources */ = {isa = PBXBuildFile; fileRef = 251C4DF120426BB100BDA2B4 /* manubar.png */; };
 		254A679B202D61EF00A448C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A679A202D61EF00A448C8 /* AppDelegate.m */; };
 		254A679E202D61EF00A448C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A679D202D61EF00A448C8 /* ViewController.m */; };
 		254A67A1202D61EF00A448C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 254A679F202D61EF00A448C8 /* Main.storyboard */; };
@@ -15,6 +16,10 @@
 		254A67A9202D61EF00A448C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A67A8202D61EF00A448C8 /* main.m */; };
 		254A67B3202D61EF00A448C8 /* illustbookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A67B2202D61EF00A448C8 /* illustbookTests.m */; };
 		254A67BE202D61EF00A448C8 /* illustbookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A67BD202D61EF00A448C8 /* illustbookUITests.m */; };
+		254A67CD202D62F900A448C8 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 254A67CC202D62F900A448C8 /* CustomButton.m */; };
+		254A67D2202D8EDE00A448C8 /* 2-japanese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 254A67CF202D8EDE00A448C8 /* 2-japanese.jpg */; };
+		254A67D3202D8EDE00A448C8 /* 3-japanese-kana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 254A67D0202D8EDE00A448C8 /* 3-japanese-kana.jpg */; };
+		254A67D4202D8EDE00A448C8 /* 1-none.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 254A67D1202D8EDE00A448C8 /* 1-none.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		251C4DF120426BB100BDA2B4 /* manubar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manubar.png; sourceTree = "<group>"; };
 		254A6796202D61EF00A448C8 /* illustbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = illustbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		254A6799202D61EF00A448C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		254A679A202D61EF00A448C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,11 @@
 		254A67B9202D61EF00A448C8 /* illustbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = illustbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		254A67BD202D61EF00A448C8 /* illustbookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = illustbookUITests.m; sourceTree = "<group>"; };
 		254A67BF202D61EF00A448C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		254A67CB202D62F900A448C8 /* CustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		254A67CC202D62F900A448C8 /* CustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		254A67CF202D8EDE00A448C8 /* 2-japanese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2-japanese.jpg"; sourceTree = "<group>"; };
+		254A67D0202D8EDE00A448C8 /* 3-japanese-kana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3-japanese-kana.jpg"; sourceTree = "<group>"; };
+		254A67D1202D8EDE00A448C8 /* 1-none.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-none.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +112,14 @@
 		254A6798202D61EF00A448C8 /* illustbook */ = {
 			isa = PBXGroup;
 			children = (
+				254A67CE202D8E8500A448C8 /* image */,
 				254A6799202D61EF00A448C8 /* AppDelegate.h */,
 				254A679A202D61EF00A448C8 /* AppDelegate.m */,
 				254A679C202D61EF00A448C8 /* ViewController.h */,
 				254A679D202D61EF00A448C8 /* ViewController.m */,
 				254A679F202D61EF00A448C8 /* Main.storyboard */,
+				254A67CB202D62F900A448C8 /* CustomButton.h */,
+				254A67CC202D62F900A448C8 /* CustomButton.m */,
 				254A67A2202D61EF00A448C8 /* Assets.xcassets */,
 				254A67A4202D61EF00A448C8 /* LaunchScreen.storyboard */,
 				254A67A7202D61EF00A448C8 /* Info.plist */,
@@ -130,6 +144,17 @@
 				254A67BF202D61EF00A448C8 /* Info.plist */,
 			);
 			path = illustbookUITests;
+			sourceTree = "<group>";
+		};
+		254A67CE202D8E8500A448C8 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				251C4DF120426BB100BDA2B4 /* manubar.png */,
+				254A67D1202D8EDE00A448C8 /* 1-none.jpg */,
+				254A67CF202D8EDE00A448C8 /* 2-japanese.jpg */,
+				254A67D0202D8EDE00A448C8 /* 3-japanese-kana.jpg */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +263,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				254A67D3202D8EDE00A448C8 /* 3-japanese-kana.jpg in Resources */,
 				254A67A6202D61EF00A448C8 /* LaunchScreen.storyboard in Resources */,
 				254A67A3202D61EF00A448C8 /* Assets.xcassets in Resources */,
 				254A67A1202D61EF00A448C8 /* Main.storyboard in Resources */,
+				254A67D2202D8EDE00A448C8 /* 2-japanese.jpg in Resources */,
+				254A67D4202D8EDE00A448C8 /* 1-none.jpg in Resources */,
+				251C4DF220426BB100BDA2B4 /* manubar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				254A67CD202D62F900A448C8 /* CustomButton.m in Sources */,
 				254A679E202D61EF00A448C8 /* ViewController.m in Sources */,
 				254A67A9202D61EF00A448C8 /* main.m in Sources */,
 				254A679B202D61EF00A448C8 /* AppDelegate.m in Sources */,
@@ -435,7 +465,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uranai.illustbook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -448,7 +478,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uranai.illustbook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
